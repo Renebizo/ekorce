@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actualité techs | EKORCE</title>
+    <meta name="description" content="Suivez les dernières innovations et tendances technologiques du monde entier sur EKORCE." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Accueil EKORCE">
+          <img class="brand-logo" src="imgs/logo-ekorce.jpg" alt="Logo EKORCE" />
+          <span class="brand-text">EKORCE</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Menu principal">
+          <a href="index.html">Accueil</a>
+          <a href="about.html">Apropos</a>
+          <a href="projects.html">Projets</a>
+          <a href="news.html" class="active">Actualité techs</a>
+          <a href="team.html">Équipes</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small-hero hero-news">
+        <div class="container hero-content">
+          <p class="kicker">Technologie & innovation</p>
+          <h1>Les tendances qui façonnent le futur.</h1>
+          <p class="lead">Des avancées IA, 3D, cybersécurité, mobilités et cloud à nos dernières analyses du monde tech.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container news-grid">
+          <article class="news-card featured-news">
+            <div class="news-image">
+              <img src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=80" alt="IA et innovation" />
+            </div>
+            <div class="news-content">
+              <span class="news-tag">IA</span>
+              <h2>L’IA générative transforme la création visuelle et la productivité des équipes.</h2>
+              <p>Les studios et entreprises intègrent désormais des workflows assistés par IA pour accélérer la production, personnaliser les contenus et réduire les délais.</p>
+              <a href="#">Lire l’article</a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <span class="news-tag">3D</span>
+            <h3>La réalité augmentée entre dans les expériences d’achat et de démonstration.</h3>
+            <p>Les marques utilisent désormais les outils 3D pour offrir des démonstrations immersives directement sur mobile et web.</p>
+          </article>
+
+          <article class="news-card">
+            <span class="news-tag">Cloud</span>
+            <h3>Les infrastructures cloud deviennent le cœur des services créatifs modernes.</h3>
+            <p>Le calcul intensif et la collaboration en temps réel ouvrent de nouvelles perspectives pour les studios.</p>
+          </article>
+
+          <article class="news-card">
+            <span class="news-tag">Cyber</span>
+            <h3>La cybersécurité se renforce face aux menaces ciblées sur les plateformes numériques.</h3>
+            <p>Les entreprises cherchent à sécuriser les données et les flux opérationnels à travers des solutions évolutives.</p>
+          </article>
+
+          <article class="news-card">
+            <span class="news-tag">Web</span>
+            <h3>Les interfaces immersives redéfinissent l’expérience utilisateur sur mobile et desktop.</h3>
+            <p>Le design d’interaction avance avec des éléments 3D, des transitions et des parcours plus narratifs.</p>
+          </article>
+
+          <article class="news-card">
+            <span class="news-tag">Réseaux</span>
+            <h3>La 5G accélère la diffusion de contenus vidéo ultra-immersifs et en temps réel.</h3>
+            <p>Des performances plus élevées facilitent le streaming, les événements en direct et la création collaborative.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <img class="brand-logo" src="imgs/logo-ekorce.jpg" alt="Logo EKORCE" />
+            <span class="brand-text">EKORCE</span>
+          </a>
+        </div>
+        <p>© <span id="year"></span> EKORCE. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

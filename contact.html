@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | EKORCE</title>
+    <meta name="description" content="Contactez EKORCE pour une commande, une collaboration ou une demande de devis. Retrouvez notre adresse et notre localisation." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Accueil EKORCE">
+          <img class="brand-logo" src="imgs/logo-ekorce.jpg" alt="Logo EKORCE" />
+          <span class="brand-text">EKORCE</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Menu principal">
+          <a href="index.html">Accueil</a>
+          <a href="about.html">Apropos</a>
+          <a href="projects.html">Projets</a>
+          <a href="news.html">Actualité techs</a>
+          <a href="team.html">Équipes</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small-hero hero-contact">
+        <div class="container hero-content">
+          <p class="kicker">Contact</p>
+          <h1>Discutons votre prochain projet.</h1>
+          <p class="lead">Nous sommes disponibles pour concevoir des contenus visuels forts, faire grandir votre marque et transformer vos idées en productions captivantes.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <p class="section-tag">Nous contacter</p>
+            <h2>Parlons strategy, création et visibilité.</h2>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <div class="icon">☎</div>
+                <div>
+                  <strong>Téléphone</strong>
+                  <a href="tel:+24174833996">+241 74 83 39 96</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="icon">✉</div>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:contact@ekorce.com">contact@ekorce.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="icon">⌂</div>
+                <div>
+                  <strong>Adresse</strong>
+                  <span>Libreville, Gabon</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-box">
+            <iframe
+              src="https://www.google.com/maps?q=Libreville%20Gabon&output=embed"
+              title="Carte de localisation EKORCE"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <img class="brand-logo" src="imgs/logo-ekorce.jpg" alt="Logo EKORCE" />
+            <span class="brand-text">EKORCE</span>
+          </a>
+        </div>
+        <p>© <span id="year"></span> EKORCE. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
